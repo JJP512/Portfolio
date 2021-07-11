@@ -1,0 +1,12 @@
+:root {
+    --black: rgb(0, 0, 0);
+    --teal: rgb(30, 175, 103);
+    --grey-blue: rgb(125, 157, 194);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
