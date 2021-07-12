@@ -26,7 +26,7 @@ header {
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 55px;
     margin: 40px;
     color: var(--black);
 }
@@ -82,7 +82,7 @@ header nav ul li a {
 }
 
 .section-title h2 {
-    font-size: 30px;
+    font-size: 45px;
     color: var(--grey-blue);
 }
 
@@ -94,6 +94,10 @@ header nav ul li a {
 
 .about-bio {
     width: 60%;
+    margin: 15px auto;
+    border: 8px solid;
+    border-color: var(--grey-blue);
+    background-color: var(--black);
 }
 
 .about div p {
@@ -102,6 +106,8 @@ header nav ul li a {
     flex-wrap: wrap;
     margin: auto;
     padding: 20px;
+    font-size: 22px;
+    color: var(--grey-blue);
 }
 
 .works {
@@ -112,11 +118,20 @@ header nav ul li a {
 
 .work-tile-1 {
     width: 60%;
-    margin: 0 auto;
-    
+    margin: 15px auto;
+    background-image: url("../images/run-buddy-tile-photo.jpg");
+    padding-top: 200px;
+    background-size: cover;
+    border: 8px solid;
+    border-color: var(--grey-blue);
 
 }
 
 .work-tile-1 h3 {
-    text-align: center;
+    text-align: left;
+    width: 12%;
+    padding: 10px;
+    background-color: var(--grey-blue);
+    font-size: 26px;
+    color: var(--black);
 }
