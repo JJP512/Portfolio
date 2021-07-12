@@ -72,6 +72,7 @@ header nav ul li a {
     color: var(--black);
 }
 
+/* Styling for all section titles */
 .section-title {
     width: 35%;
     border-right: 8px solid;
@@ -86,6 +87,7 @@ header nav ul li a {
     color: var(--grey-blue);
 }
 
+/* About Me section styling */
 .about {
     width: 100%;
     display: flex;
@@ -111,6 +113,7 @@ header nav ul li a {
     color: var(--grey-blue);
 }
 
+/* Work section styling */
 .works {
     width: 100%;
     display: flex;
@@ -142,6 +145,8 @@ header nav ul li a {
     text-decoration: none;
 }
 
+
+/* Contact Me section styling */
 .contact {
     width: 100%;
     display: flex;
