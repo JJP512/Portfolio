@@ -90,6 +90,7 @@ header nav ul li a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--black);
 }
 
 .about-bio {
@@ -114,6 +115,7 @@ header nav ul li a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    background-color: var(--black);
 }
 
 .work-tile-1 {
@@ -134,4 +136,38 @@ header nav ul li a {
     background-color: var(--grey-blue);
     font-size: 26px;
     color: var(--black);
+}
+
+.work-tile-1 a {
+    text-decoration: none;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--black);
+}
+
+.contact-info {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    justify-content: space-around;
+    background-color: var(--grey-blue);
+}
+
+.contact-tile {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-tile a {
+    text-decoration: none;
 }
