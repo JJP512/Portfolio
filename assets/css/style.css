@@ -122,7 +122,7 @@ header nav ul li a {
 }
 
 .work-tile-1 {
-    width: 60%;
+    width: 30%;
     margin: 15px auto;
     background-image: url("../images/run-buddy-tile-photo.jpg");
     padding-top: 200px;
@@ -145,7 +145,29 @@ header nav ul li a {
     text-decoration: none;
 }
 
+.work-tile-2 {
+    width: 30%;
+    margin: 15px auto;
+    background-image: url("../images/moviewiki.jpg");
+    padding-top: 200px;
+    background-size: cover;
+    border: 8px solid;
+    border-color: var(--grey-blue);
 
+}
+
+.work-tile-2 h3 {
+    text-align: left;
+    width: 12%;
+    padding: 10px;
+    background-color: var(--grey-blue);
+    font-size: 26px;
+    color: var(--black);
+}
+
+.work-tile-2 a {
+    text-decoration: none;
+}
 /* Contact Me section styling */
 .contact {
     width: 100%;
