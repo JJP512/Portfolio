@@ -168,6 +168,30 @@ header nav ul li a {
 .work-tile-2 a {
     text-decoration: none;
 }
+
+.work-tile-3 {
+    width: 30%;
+    margin: 15px auto;
+    background-image: url("../images/ja-construction.jpg");
+    padding-top: 200px;
+    background-size: cover;
+    border: 8px solid;
+    border-color: var(--grey-blue);
+
+}
+
+.work-tile-3 h3 {
+    text-align: left;
+    width: 12%;
+    padding: 10px;
+    background-color: var(--grey-blue);
+    font-size: 26px;
+    color: var(--black);
+}
+
+.work-tile-3 a {
+    text-decoration: none;
+}
 /* Contact Me section styling */
 .contact {
     width: 100%;
